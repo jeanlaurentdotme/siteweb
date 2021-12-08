@@ -1,3 +1,54 @@
-.flex{
-    
+/* CSS Document */
+
+
+.page{
+	width:800px; /*d�finit la largeur du div � 800 pixels*/
+	margin:auto /* marges automatiques pour centrer sur la page*/
 }
+
+.zone1 {
+	width:800px; /*d�finit la largeur du div � 800 pixels*/
+	height:200px; /*d�finit la hauteur du div � 120 pixels*/
+	background-color:#333333; /*couleur de fond Gris foncé*/
+}
+
+.photo{
+	float: left; /*place le div � gauche*/
+	padding:10px /*marges int�rieures au div de 10 pixels*/
+}
+
+.texte{
+	margin:auto;
+	padding:25px;
+	text-align:center;
+	color:#CCCCCC;
+	font-size: 24px;
+}
+
+
+.zone2 {
+	float:left; /*place le div � gauche de la page*/
+	width:500px; /*d�finit la largeur du div � 500 pixels*/
+	background-color:#CCCCCC;
+	text-align:left;
+	color:#333333
+}
+
+.zone3 {
+	float:right; /*place le div � droite de la page*/
+	width:300px; /*d�finit la largeur du div � 300 pixels*/
+	height:114px; /* définition de la longeur du div a 114 pixels*/
+	background-color:#AAAAAA;
+	text-align:center;
+	color:#000000
+}
+
+
+.zone4 {
+	float:left; /*place le div � gauche de la page*/
+	width:800px; /*d�finit la largeur du div � 800 pixels*/
+	background-color:#333333;
+	text-align:center;
+	color:#CCCCCC
+}
+
